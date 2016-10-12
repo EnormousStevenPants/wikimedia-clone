@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  border: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  font-family: sans-serif;
+}
+
+a {
+  color: #0645AD;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0645AD;
+}
+
+/* -----HEADER----- */
+.header {
+  height: 40vh;
+  width: 80vw;
+}
+
+.top-text {
+  font-size: 20px;
+  word-spacing: 5px;
+  line-height: 27px;
+  margin-top: 4vh;
+}
+
+.wikimedia {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#welcome {
+  margin-top: 3vh;
+  float: right;
+}
+
+
+/* -----MAIN----- */
+
+.main {
+  height: 90vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 18vh;
+  width: 17vh;
+  margin: 1vh
+}
+
+/* -----FOOTER----- */
+
+.footer {
+  border-top: 1px solid black;
+  /*position: absolute;
+  bottom: 0;*/
+  height: 10vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.inner-foot {
+  height: 10vh;
+  width: 60vw;
+}
+
+.policy {
+  margin-right: 15px;
+}
+
+#foot {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
